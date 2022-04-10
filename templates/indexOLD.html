@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <br>
+
+        <h1>WORD to PDF Converter</h1>
+        <br>
+        <br>
+        <br>
+
+        <form enctype = "multipart/form-data" action="/submitForm" id="fileAcceptingForm" method="POST">
+            <div id="innerDiv">
+                <label for="files" id="l1">Select Input File </label>
+                <input type="file" name="file1" >
+            </div>
+            <br>
+            <br>
+            <button type="submit" id="submitBtn">CONVERT</button>
+        </form>
+        <div class="convertBar">
+            <p>0.00</p>
+        </div>
+        <div class="image3you">
+            <img src="static/images/pdf2Word.png" alt="" id="general_Image">
+        </div>
+    </div>
+
+    <a href="https://www.instagram.com/harshitjoshi11/"><img class="footerImg" src="static/images/instagram.png" alt="">
+    </a>
+    <a href="https://github.com/harshitjoshi1104"><img class="footerImg" src="static/images/githubImage.png" alt=""></a>
+    
+
+    
+
+    
+</body>
+</html>
